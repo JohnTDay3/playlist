@@ -1,0 +1,61 @@
+body{
+  font-family: Avenir;
+  background-color: #EEEEEE;
+}
+
+header {
+  background-color:#9B9B8C;
+  height: 100px;
+  border-bottom:1px solid black;
+  margin-bottom:20px;
+}
+
+h2{
+  font-family: Avenir;
+  color: #EEEEEE;
+  font-weight:100;
+  padding-left:80px;
+  padding-top:65px;
+}
+
+#albumScroll{
+    overflow: scroll;
+    white-space: nowrap;
+    height: 150px;
+    width: 100%;
+    margin-left:38px;
+}
+
+img {
+  margin-left:35px;
+  max-height:100%;
+  max-width: 100%;
+}
+
+#trackBin {
+  height: 30vh;
+  background-color:#EEEEEE;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Avenir;
+  width: 90%;
+  font-size:12px;
+  padding-top:15px;
+}
+
+footer p{
+  font-size:16px;
+  color:#EEEEEE;
+  margin-left:60px;
+  margin-top:15px;
+}
+
+footer{
+  position:absolute;
+  background-color:#9B9B8C;
+  height:60px;
+  bottom:0;
+  width:100%;
+  border-top: 1px solid black;
+}

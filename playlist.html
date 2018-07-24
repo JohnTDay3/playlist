@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Playlist</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/sandstone/bootstrap.min.css">
+  <link rel="stylesheet" href="playlist.css">
+</head>
+
+<body>
+  <header id="pickAlbum">
+    <h2>click an album to add its tracks to the bin</h2>
+    </header>
+
+    <div class="row scroll" id="albumScroll">
+    </div>
+
+    <div class="container trackBin" id="trackBin">
+    </div>
+
+    <div class="container">
+
+      <button class="btn" type="button" id="clear">clear tracks</button>
+      <button class="btn" type="button" id="submit">submit bin</button>
+    </div>
+
+    <footer>
+      <p>© 2018, Jake Day</p>
+    </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js'></script>
+    <script src="playlist.js"></script>
+  </body>
+
+  </html>

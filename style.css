@@ -1,0 +1,69 @@
+body{
+  font-family: Avenir;
+  background-color: #EEEEEE;
+}
+
+header {
+  background-color:#9B9B8C;
+  height: 50px;
+  border-bottom:1px solid black;
+}
+
+.container{
+  height:90vh;
+  max-width:100%;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+.left h1{
+  font-size:50px;
+  text-align: center;
+  color:#743B88;
+  font-weight:100;
+  margin-top:30vh;
+}
+
+.left button {
+  color:#EEEEEE;
+  background-color:#353526;
+  border-radius: 4px;
+  width: 160px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.album{
+  display: block;
+  height: 220px;
+  width: 220px;
+  margin-top:1vh;
+  margin: 8px auto;
+  padding-top:3vh;
+}
+
+#right{
+  display: block;
+  background:url('resources/fadedTrack.jpg');
+  background-repeat: no-repeat;
+  height:100%;
+  background-size:100% 100%;
+  top:0;
+  bottom:0;
+  max-height:100%;
+}
+
+footer{
+  background-color:#9B9B8C;
+  height:60px;
+  bottom:0;
+  width:100%;
+  border-top: 1px solid black;
+}
+
+footer p{
+  font-size:16px;
+  color:#EEEEEE;
+  margin-left:60px;
+}
